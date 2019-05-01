@@ -1,0 +1,9 @@
+import pandas as pd
+
+df = df.read_csv("PATH")
+
+If the PATH is with multiple \ (Back Slashes), pandas(or python) will have trouble dealing with it.
+
+That might be caused by the priority of quote (") and slash (\)
+Slash has a high priority than "
+Which will destroy the string.
