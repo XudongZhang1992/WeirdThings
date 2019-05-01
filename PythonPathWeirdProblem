@@ -7,3 +7,5 @@ If the PATH is with multiple \ (Back Slashes), pandas(or python) will have troub
 That might be caused by the priority of quote (") and slash (\)
 Slash has a high priority than "
 Which will destroy the string.
+
+Use double \\ to easily fix the problem
